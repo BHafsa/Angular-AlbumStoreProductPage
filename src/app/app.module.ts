@@ -12,7 +12,7 @@ import { ProductTracklistingComponent } from './product-tracklisting/product-tra
 import { RouterModule, Routes} from '@angular/router'
 import { ProductListComponent } from './product-list/product-list.component';
 
-const appRoutes: Routes =[
+const appRoutes:Routes=[
   {
     path:'products',
     component:ProductListComponent,
@@ -25,8 +25,7 @@ const appRoutes: Routes =[
     redirectTo :'products',
     pathMatch : 'full'
   }
-] ;
-
+];
 @NgModule({
   declarations: [
     AppComponent,
@@ -44,4 +43,7 @@ const appRoutes: Routes =[
   providers: [ProductService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+
+  
+}
